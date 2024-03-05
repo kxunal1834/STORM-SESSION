@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ✨", url="https://t.me/DevilSupportChat")],
+        [InlineKeyboardButton("ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ✨", url="https://t.me/NXETWORK/4")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/UNI_INDIA_0008")],
+        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/STORM_CHATZ")],
     ]
 
     START = """
@@ -50,11 +50,11 @@ class Data:
     ABOUT = """
 **ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ**
 
-ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ @DevilSupportChat
+ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ @STORM_CHATZ
 
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴛᴀᴋᴇ ɪᴛ ꜰʀᴏᴍ ᴏᴡɴᴇʀ](https://t.me/+MjDNHBEzxLhkNzZl)
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴛᴀᴋᴇ ɪᴛ ꜰʀᴏᴍ ᴏᴡɴᴇʀ](https://t.me/STORM_CHATZ)
 
 ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-ᴅᴇᴠᴇʟᴏᴘᴇʀ : [⏤͟͞ᴅᴇᴠɪʟ </>](https://t.me/KANU_XD)
+ᴅᴇᴠᴇʟᴏᴘᴇʀ : [⏤͟͞〲ʟᴜ͢ᴄᴋʏ </>](https://t.me/KKEX_XD)
     """
