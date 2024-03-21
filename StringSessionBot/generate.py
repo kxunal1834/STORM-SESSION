@@ -146,7 +146,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**{ty.upper()} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ** \n\n`{string_session}` \n\nɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @DevilSessionGenerator_Bot"
+    text = f"**{ty.upper()} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ** \n\n`{string_session}` \n\nɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @stromsessiongenerator_bot"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -155,7 +155,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. \n\nᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ! \n\nʙʏ @DevilSessionGenerator_Bot".format("telethon" if telethon else "pyrogram"))
+    await bot.send_message(msg.chat.id, "ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. \n\nᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ! \n\nʙʏ @stromsessiongenerator_bot".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
