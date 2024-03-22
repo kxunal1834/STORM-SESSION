@@ -8,7 +8,7 @@
     "python",
     "pyrogram"
   ],
-    "buildpacks": [{
+  "buildpacks": [{
     "url": "heroku/python"
   }],
   "formation": {
@@ -18,13 +18,13 @@
     }
   },
   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
       }
-   ],
+    }
+  ],
   "repository": "https://github.com/VARC9210/SESSION",
   "env": {
     "ENVIRONMENT": {
@@ -35,17 +35,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "YOUR_API_ID"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "YOUR_API_HASH"
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": ""
+      "value": "YOUR_BOT_TOKEN"
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
