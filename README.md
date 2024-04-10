@@ -12,7 +12,7 @@
 
 ### HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/VARC9210/SESSION)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kxunal1834/STORM-SESSION)
 
 𝟏. 𝐓𝐚𝐩 𝐨𝐧 𝐚𝐛𝐨𝐯𝐞 𝐛𝐮𝐭𝐭𝐨𝐧 𝐚𝐧𝐝 𝐟𝐢𝐥𝐥 `𝐀𝐏𝐈_𝐈𝐃`, `𝐀𝐏𝐈_𝐇𝐀𝐒𝐇`, `𝐁𝐎𝐓_𝐓𝐎𝐊𝐄𝐍` (𝐚𝐧𝐝 `𝐌𝐔𝐒𝐓_𝐉𝐎𝐈𝐍`). 
 𝟐. 𝐓𝐡𝐞𝐧 𝐭𝐚𝐩 "𝐃𝐞𝐩𝐥𝐨𝐲 𝐀𝐩𝐩" 𝐛𝐞𝐥𝐨𝐰 𝐢𝐭. 𝐖𝐚𝐢𝐭 𝐭𝐢𝐥𝐥 𝐝𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐢𝐬 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞 (𝐰𝐢𝐥𝐥 𝐭𝐚𝐤𝐞 𝐚𝐭𝐦𝐨𝐬𝐭 𝟐 𝐦𝐢𝐧𝐮𝐭𝐞𝐬). 
