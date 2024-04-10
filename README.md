@@ -23,7 +23,7 @@
 
 1. Clone the repo
    ```markdown
-   git clone https://github.com/VARC9210/SESSION
+   git clone https://github.com/kxunal1834/STORM-SESSION
    ```
 2. Get a `DATABASE_URL`. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
    
